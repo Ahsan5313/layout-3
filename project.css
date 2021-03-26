@@ -1,0 +1,32 @@
+
+.contain{
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'manu main main main aside aside'
+    'manu footer footer footer footer footer'
+    ;
+}
+.contain > div{
+    
+    border:1px solid black;
+    text-align: center;
+    padding: 20px;
+    color:red;
+    
+}
+.itme1{
+    grid-area: header;
+}
+.itme2{
+    grid-area: manu;
+}
+.itme3{
+    grid-area: main;
+}
+.itme4{
+    grid-area: aside;
+}
+.itme5{
+    grid-area: footer;
+}
